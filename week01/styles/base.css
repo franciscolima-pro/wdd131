@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1, h2, li, #footer{
+    font-family: "Quicksand", serif;
+}
+
+li{
+    padding: 0.7em;
+}
+
+p, h3{
+    font-family: "Roboto", serif;
+}
+
+header span{
+    color: #F7FA25;
+    font-size: 1.5rem;
+}
+
+header h1{
+    background-color: #248232;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+header nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: #414141;
+    padding: 1em;
+    margin-bottom: 1rem;
+}
+
+header nav a{
+    display: inline-block;
+    transition: transform 0.3s;
+    text-decoration: none;
+    color: white;   
+}
+
+header nav a:hover{
+    transform: scale(1.1);
+}
+
+main{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+main section{
+    border: 1px solid gray;
+    border-radius: 0.7em;
+}
+
+main section h2{
+    background-color: #248232;
+    text-align: center;
+    border-top-left-radius: 0.4em; 
+    border-top-right-radius: 0.4em; 
+    padding: 0.8rem;
+    color: white;
+}
+
+main #card1{
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+main #card2{
+    padding: 3rem;
+}
+
+main #card2 li a{
+    display: inline-block;
+    transition: transform 0.3s;
+    text-decoration: none;
+    color: #248232;
+}
+
+main #card2 li a:hover{
+    text-decoration: underline;
+}
+
+main #card1content {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+main section #profile{
+    padding-left: 3em;
+}
+
+main div h3{
+    border-bottom: 1px solid gray;
+    text-align: center;
+}
+
+main section #countryinfo{
+    display: flex;
+    gap: 1em;
+    padding-top: 2em;
+    align-items: center;
+}
+
+main section #aboutme{
+    padding-bottom: 2em;
+}
+
+footer{
+    background-color: #248232;
+    padding: 2.1em;
+    text-align: center;
+}
+
+footer #footer{
+    font-size: large;
+    color: white;
+}
+
+footer #lastModified{
+    color: #F7FA25;
+}
+
+

@@ -52,6 +52,7 @@ main{
     grid-template-columns: 2fr 1fr;
     gap: 1rem;
     padding: 1rem;
+    max-width: 100%;
 }
 
 main section{
@@ -98,9 +99,10 @@ main section #profile{
     padding-left: 3em;
 }
 
-main div h3{
+main div #h3{
     border-bottom: 1px solid gray;
     text-align: center;
+    font-size: large;
 }
 
 main section #countryinfo{

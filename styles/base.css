@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-h1, h2, li, #footer{
+h1, h2, li, #footer, nav a{
     font-family: "Quicksand", serif;
 }
 
@@ -12,7 +12,7 @@ li{
     padding: 0.7em;
 }
 
-p, h3{
+p{
     font-family: "Roboto", serif;
 }
 
@@ -37,6 +37,7 @@ header nav{
 }
 
 header nav a{
+    font-size: large;
     display: inline-block;
     transition: transform 0.3s;
     text-decoration: none;

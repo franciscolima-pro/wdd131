@@ -1,0 +1,25 @@
+@media (min-width: 800px){
+    
+    .nav-links {
+        display: flex; /* Mostra os links como uma barra horizontal */
+        flex-direction: row; /* Alinha os links horizontalmente */
+        gap: 1rem; /* Adiciona espaço entre os links */
+    }
+
+    header{
+        align-items: center;
+    }
+
+    .hamburger {
+        display: none; /* Esconde o botão hambúrguer */
+    }
+
+    #figures{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        padding: 1rem 5rem 1rem 5rem;
+    }
+    #figures figure{
+        padding: 1rem;
+    }
+  }

@@ -16,7 +16,7 @@ h1{
     border-bottom: 1em solid #242424;
     padding: 0.2em;
     align-items: center;
-    color: #bd921c;
+    color: #860106;
     background-color: #e2e1e1;
     font-family: var(--primary-font);
 }
@@ -49,7 +49,7 @@ main section:nth-last-of-type(1){
 
 
 main section:nth-last-of-type(1) span{
-    color: #e6af17;
+    color: #F7CF00;
 }
 
 main section:nth-last-of-type(2){
@@ -67,7 +67,7 @@ main section:nth-last-of-type(2) p{
 }
 
 main section:nth-last-of-type(2) p span{
-    color: #e6af17;
+    color: #F7CF00;
 }
 
 main section div h2{
@@ -94,7 +94,7 @@ footer{
     gap: 0.5em;
     align-items:center;
     font-size: large;
-    color: #d4a31a;
+    color: #F7CF00;
   }
 
   footer #footer img{
@@ -102,7 +102,7 @@ footer{
   }
   
   footer #lastModified{
-    color: #d4a31a;
+    color: #F7CF00;
   }
 
   /* Media query */

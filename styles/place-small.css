@@ -1,4 +1,4 @@
-  @media(min-width: 800px){
+  @media (min-width: 800px){
     main section:nth-last-of-type(1) h2::after{
         content: '⛅';
         position: absolute;
@@ -9,7 +9,7 @@
     }
   }
 
-  @media(max-width: 1200px){
+  @media (max-width: 1200px){
     main section:nth-last-of-type(2){
         padding-top: 2.5em;
         width: 30%;
@@ -41,7 +41,7 @@
     }
   }
 
-  @media(max-width: 800px){
+  @media (max-width: 800px){
     main{
         background-color:#860106;
     }

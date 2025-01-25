@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Egypt">
+    <meta name="author" content="Francisco Lima">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lancelot&family=Permanent+Marker&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/place.css">
+    <script src="scripts/place.js" defer></script>
+    <title>Egypt</title>
+</head>
+<body>
+    <header> 
+        <h1>
+            <img src="images/egpty2.webp" alt="Egypt flag">
+            Egypt
+        </h1>
+    </header>
+    <main>
+        <picture>
+            <source media="(min-width: 800px)" srcset="images/hero-egypt.webp">
+            <img src="images/kingtut.webp" alt="Symbol of Egypt image">
+        </picture>
+        <section>
+            <div>
+                <h2>Data</h2>
+                <p><b>Area: </b> <span>Approximately 1,001,450 km²</span></p>
+                <p><b>Population: </b> <span>Around 110 million</span></p>
+                <p><b>Capital: </b> <span>Cairo</span></p>
+                <p><b>Languages: </b> <span>Arabic</span></p>
+                <p><b>Currency: </b> <span>Egyptian pound (EGP)</span></p>
+                <p><b>Time Zone: </b> <span>UTC+2</span></p>
+            </div>
+        </section>
+        <section>
+            <div>
+                <h2>Weather </h2>
+                <img src="images/sun.svg" alt="Sun image">
+                <p><b>Temperature:</b> <span id="temp"></span> <span>°C</span></p>
+                <p><b>Conditions:</b> <span id="condit"></span></p>
+                <p><b>Wind:</b> <span id="wind"></span> <span>km/h </span></p>
+                <p><b>Wind Chill:</b> <span id="wchill"></span> <span>°C</span></p>
+            </div>
+        </section>
+
+    </main>
+    <footer>
+        <div id="footer">
+            &copy;<span id="currentYear"></span><img src="images/piramd.webp" alt="Pyramid"> <p>Francisco Lima</p> <img src="images/piramd.webp" alt="Pyramid"><p>Egypt</p>
+        </div>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+</html>

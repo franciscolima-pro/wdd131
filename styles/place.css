@@ -1,0 +1,221 @@
+:root{
+    --primary-font:  "Roboto", serif;
+    --secondary-font:"Quicksand", serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Header style */
+h1{
+    display: flex;
+    flex-direction: column;
+    border-top: 1em solid #860106;
+    border-bottom: 1em solid #242424;
+    padding: 0.2em;
+    align-items: center;
+    color: #bd921c;
+    background-color: #e2e1e1;
+    font-family: var(--primary-font);
+}
+
+h1 img{
+    width: 1.5em;
+}
+
+/* Main style */
+main{
+    position: relative;
+    font-family: var(--secondary-font);
+    background-color: #242424;
+}
+
+main picture img{
+    width: 100%;
+    height: auto;
+}
+
+main section:nth-last-of-type(1){
+    background-color: #86010593;
+    position: absolute;
+    right: 3%;
+    top: 60%;
+    padding: 2em;
+    padding-top: 5em;
+    color: white;
+}
+
+
+main section:nth-last-of-type(1) span{
+    color: #e6af17;
+}
+
+main section:nth-last-of-type(2){
+    background-color: #860105ad;
+    position: absolute; 
+    left: 3%;
+    top: 10%;
+    padding: 2em;
+    padding-top: 5em;
+    color: white;
+}
+
+main section:nth-last-of-type(2) p{
+    padding: 0.5em;
+}
+
+main section:nth-last-of-type(2) p span{
+    color: #e6af17;
+}
+
+main section div h2{
+    background-color: #242424;
+    padding: 0.5em;
+    position: absolute;
+    top: 7%;
+    width: 90%;
+    right: 12%;
+}
+
+/* Footer style */
+footer{
+    background-color: #242424;
+    padding: 2.1em;
+    text-align: center;
+    font-family: var(--primary-font);
+    margin-top: 0;
+  }
+  
+  footer #footer{
+    display: flex;
+    justify-content: center;
+    gap: 0.5em;
+    align-items:center;
+    font-size: large;
+    color: #d4a31a;
+  }
+
+  footer #footer img{
+    width: 2em;
+  }
+  
+  footer #lastModified{
+    color: #d4a31a;
+  }
+
+  /* Media query */
+
+  @media(min-width: 800px){
+    main section:nth-last-of-type(1) h2::after{
+        content: '⛅';
+        position: absolute;
+        margin-left: 1em;
+    }
+    main section div img{
+        display: none;
+    }
+  }
+
+  @media(max-width: 1200px){
+    main section:nth-last-of-type(2){
+        padding-top: 2.5em;
+        width: 30%;
+    }
+    main section:nth-last-of-type(2) p{
+        padding: 0.2em;
+        font-size: 13px;
+    }
+
+    main section:nth-last-of-type(1){
+        padding-top: 2.5em;
+        top: 45%;
+        width: 11em;
+        padding-left: 1em;
+    }
+    main section:nth-last-of-type(1) p{
+        padding: 0.2em;
+        font-size: 13px;
+    }
+
+    main section div h2{
+        background-color: #242424;
+        padding: 0.3em;
+        position: absolute;
+        top: 3%;
+        width: 90%;
+        right: 12%;
+        font-size: 15px;
+    }
+  }
+
+  @media(max-width: 800px){
+    main{
+        background-color:#860106;
+    }
+
+    main section div img{
+        width: 13em;
+        padding-left: 4em;
+    }
+
+    main section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    main section div{
+        background-color:white;
+        width: 70%;
+    }
+
+    main section:nth-last-of-type(2) p span{
+        color:#242424;
+    }
+
+    main section:nth-last-of-type(1) p span{
+        color:#242424;
+    }
+
+    main section:nth-last-of-type(2){
+        background-color: white;
+        color: #242424;
+        padding-top: 0;
+        width: auto;
+        position: relative;
+        left: auto;
+    }
+    main section:nth-last-of-type(2) p{
+        padding: 0.2em;
+        font-size: 17px;
+    }
+
+    main section:nth-last-of-type(1){
+        background-color: white;
+        color: #242424;
+        padding-top: 0;
+        width: auto;
+        position: relative;
+        right: auto;
+    }
+    main section:nth-last-of-type(1) p{
+        padding: 0.2em;
+        font-size: 17px;
+        padding-left: 1.1em;
+    }
+
+    main section div h2{
+        background-color: white;
+        color: #242424;
+        padding: 1em;
+        position: relative;
+        top: 3%;
+        width: 100%;
+        right: 0;
+        font-size: 25px;
+        text-align: center;
+    }
+  }
+

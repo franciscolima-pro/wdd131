@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilizando CSS */
+header{
+    background-color: #248232;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    color: white;
+    z-index: 10;
+    font-family: 'quicksand';
+  }
+
+  header div{
+    background-color: #248232;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  header nav{
+    background-color: #248232;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+/* Estilizando o Main */
+main{
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+form{
+    background-color: #248232b5;
+    padding: 1em;
+    font-family: 'Roboto';
+    border-radius: 0.3rem;
+}
+
+main div{
+    margin-top: 1em;
+}
+
+#productname, #written, #date, #username, button{
+    resize: none;
+    width: 100%; /* Ocupa toda a largura do container */
+    max-width: 30em; /* Define um limite máximo para não ficar muito grande */
+    padding: 0.5em;
+    box-sizing: border-box; /* Garante que padding e borda não aumentem o tamanho total */
+}
+
+button{
+    margin-top: 1em;
+}
+
+/* Estilizando o Footer */
+footer{
+    background-color: #248232;
+    padding: 2.1em;
+    text-align: center;
+    font-family: 'Roboto';
+  }
+  
+  footer #footer{
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    align-items: center;
+    font-size: large;
+    color: white;
+  }
+  
+  footer #lastModified{
+    color: white;
+  }

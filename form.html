@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Product Review Form">
+    <meta name="author" content="Francisco Lima">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lancelot&family=Permanent+Marker&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/form.css">
+    <script src="scripts/form.js" type="module"></script>
+    <title>WDD 131 | Francisco Lima | Product Review</title>
+</head>
+<body>
+    <header> 
+        <h1>
+            Product Review
+        </h1>
+    </header>
+    <main>
+        <form action="review.html" method="get">
+            <div>
+                <label for="productname">Product Name</label><br>
+                <select name="productname" id="productname"  required>
+                    <option value="" selected disabled>Select a Product ...</option>
+                </select>
+            </div>
+            <div>
+                <label>Overall Rating</label><br>
+                <input type="radio" name="rating" id="rating-1" value="1" required>
+                <label for="rating-1">☆</label>
+    
+                <input type="radio" name="rating" id="rating-2" value="2">
+                <label for="rating-2">☆☆</label>
+    
+                <input type="radio" name="rating" id="rating-3" value="3">
+                <label for="rating-3">☆☆☆</label>
+    
+                <input type="radio" name="rating" id="rating-4" value="4">
+                <label for="rating-4">☆☆☆☆</label>
+    
+                <input type="radio" name="rating" id="rating-5" value="5">
+                <label for="rating-5">☆☆☆☆☆</label>
+            </div>
+           <div>
+                <label for="date">Date of Installation</label><br>
+                <input type="date" name="date" id="date"  required>
+           </div>
+            <div>
+                <label>Which features did you find useful in the product?<br>(Check all that apply)</label><br>
+                <input type="checkbox" name="features" id="features-1" value="Durability">Durability<br>
+                <input type="checkbox" name="features" id="features-2" value="Ease of Use">Ease of Use<br>
+                <input type="checkbox" name="features" id="features-3" value="Performance">Performance<br>
+                <input type="checkbox" name="features" id="features-4" value="Design">Design
+            </div>
+           <div>
+                <label for="written">Written Review <span>(Optional)</span></label><br>
+                <textarea name="written" id="written"></textarea>
+           </div> 
+           <div>
+                <label for="username">Your Name <span>(Optional)</span></label><br>
+                <input type="text" name="username" id="username">
+           </div>
+            <button type="submit">Post Review</button>
+        </form>
+    </main>
+    <footer>
+        <div id="footer">
+            &copy;<span id="currentYear"></span>| Francisco Lima | Brazil
+        </div>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+</html>
